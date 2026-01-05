@@ -177,23 +177,18 @@
       margin-bottom: 15px;
       background: #e5e7eb;
       height: 180px;
-      object-fit: cover;
     }
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+      grid-template-columns:1fr 1fr 1fr;
       gap: 25px;
       text-align: center;
     }
 
     .stat {
-      background: linear-gradient(135deg, #e0e7ff, #f0f9ff);
+      background: linear-gradient( #e0e7ff, #f0f9ff);
       padding: 40px 20px;
-    }
-
-    .testimonial {
-      font-style: italic;
     }
 
     footer {
